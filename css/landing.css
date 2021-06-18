@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 3.75rem;
+}
+
+h2 {
+    font-family: "Open Sans";
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: "Open Sans";
+    font-size: 2.0625rem;
+    font-weight: 300;
+}
+p {
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+nav {
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+footer {
+     background-color: #FFF0ED;
+     }
+     footer h2 {
+         font-size: 2.0625rem;
+         font-weight: 400;
+     }
+.nitro {
+    background-color: #FFF0ED;
+}
+
+.nitro h1{
+    font-size: 1.125rem;
+}
+
+.nitromain {
+    background-color: #FFF0ED;
+}
+
+.buttons {
+    color: #FFF;
+    background-color: #5bacc3;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    border-style:hidden;
+}
+
+.price {
+    font-size: 2.0625rem;
+    color:#5bacc3
+}
+.promo {
+    background-color: #393939;
+    font-size: 2.0625rem;
+    font-weight: 25rem;
+    color: #fff;
+    margin-top: 0rem;
+    margin-right: 2.5rem;
+}
