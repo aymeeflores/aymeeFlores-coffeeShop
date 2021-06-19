@@ -7,36 +7,42 @@
   font-family: "Open Sans";
 }
 /* main navigation coffee shop*/
-header {
+.mainmenu {
   background-color: #fff0ed;
   padding: 15px;
+  display: flex;
 }
-.mainmenu h1 {
-    font-family: "Open Sans";
-    font-size: 2.375rem;
-    font-weight: 400;
-    color: #393939;
-    text-align:left;
-     }
-.mainmenu__aligment {
-    display: inline-block;
-   }
-.mainmenu__icon {
-  float:left;
-  margin-right: 0px;
+.mainmenu__title {
+  font-size: 2.375rem;
+  font-weight: 400;
+  color: #393939;
+  text-align: left;
+  display: inline-block;
+}
+.mainmenu__item {
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 18px;
+  font-weight: 500;
+}
+.mainmenu_icon {
+  display: inline-block;
 }
 a:link {
   color: #393939;
   text-decoration: none;
   text-transform: uppercase;
 }
-.mainmenu li {
+
+.footer__titles {
+  font-size: 33px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer__text {
   font-size: 18px;
-  font-weight: 500;
-  padding-left: 20px;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-.mainmenu ul li:nth-child(3) {  
-  color: #5bacc3;
-}
-
-

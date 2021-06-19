@@ -2,76 +2,88 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-h1 {
-    font-family: "Open Sans";
-    font-weight: 300;
-    font-size: 3.75rem;
-}
-
-h2 {
-    font-family: "Open Sans";
-    font-size: 3.75rem;
-    font-weight: 300;
+  font-family: "Open Sans";
 }
 
 h3 {
-    font-family: "Open Sans";
-    font-size: 2.0625rem;
-    font-weight: 300;
-}
-p {
-    font-family: "Open Sans";
-    font-size: 1.125rem;
-    font-weight: 400;
-}
-
-nav {
-    font-family: "Open Sans";
-    font-size: 1.125rem;
-    font-weight: 400;
-}
-
-ul {
-    list-style: none;
+  font-size: 2.0625rem;
+  font-weight: 300;
 }
 footer {
-     background-color: #FFF0ED;
-     }
-     footer h2 {
-         font-size: 2.0625rem;
-         font-weight: 400;
-     }
-.nitro {
-    background-color: #FFF0ED;
+  background-color: #fff0ed;
+}
+footer h2 {
+  font-size: 2.0625rem;
+  font-weight: 400;
+}
+.mainsection {
+  background-color: #fff0ed;
 }
 
-.nitro h1{
-    font-size: 1.125rem;
+.mainsection__title {
+  font-weight: 300;
+  font-size: 3.75rem;
 }
-
-.nitromain {
-    background-color: #FFF0ED;
+.mainsection__text {
+  font-size: 1.125rem;
+  font-weight: 400;
 }
 
 .buttons {
-    color: #FFF;
-    background-color: #5bacc3;
-    font-size: 1.3125rem;
-    font-weight: 400;
-    border-style:hidden;
+  color: #fff;
+  background-color: #5bacc3;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  border-style: hidden;
 }
 
-.price {
-    font-size: 2.0625rem;
-    color:#5bacc3
-}
 .promo {
-    background-color: #393939;
-    font-size: 2.0625rem;
-    font-weight: 25rem;
-    color: #fff;
-    margin-top: 0rem;
-    margin-right: 2.5rem;
+  background-color: #393939;
+  font-size: 2.0625rem;
+  font-weight: 25rem;
+  color: #fff;
+  margin-top: 0rem;
+  margin-right: 2.5rem;
+}
+.ourproducts {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.ourproducts__title {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+.ourproducts__cards {
+  min-width: 330px;
+  max-width: 350px;
+  min-height: 440px;
+  max-height: 460px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+/* fixed img distortion caused by flex*/
+.ourproducts__cards--img {
+  width: 50%;
+  margin: auto;
+  min-height: 240px;
+  max-height: 550px;
+}
+.ourproducts__cards--name {
+  text-align: center;
+  padding: 20px;
+  font-size: 2.0625rem;
+  font-weight: 300;
+}
+.ourproducts__cards--price {
+  font-size: 2.0625rem;
+  color: #5bacc3;
+  text-align: center;
+  padding: 20px;
 }
