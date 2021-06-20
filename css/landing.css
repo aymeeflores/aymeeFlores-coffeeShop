@@ -40,7 +40,10 @@
   padding: 10px;
   margin-top: 20px;
 }
-
+.promo__container {
+  display: flex;
+  justify-content: center;
+}
 .promo {
   background-color: #393939;
   font-size: 2.0625rem;
@@ -50,6 +53,7 @@
   margin-bottom: 5rem;
   margin-right: 2.5rem;
   padding: 20px;
+  width: fit-content;
 }
 .ourproducts {
   display: flex;
@@ -71,7 +75,6 @@
   max-width: 350px;
   min-height: 440px;
   max-height: 460px;
-  padding: 20px;
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
@@ -88,24 +91,28 @@
   max-height: 550px;
 }
 .ourproducts__cards--name {
-  text-align: center;
   font-size: 2.0625rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 .ourproducts__cards--price {
   font-size: 2.0625rem;
   color: #5bacc3;
   text-align: center;
   padding: 20px;
+  font-weight: bold;
 }
 .qty {
   color: #909090;
-  font-size: 10px;
+  font-size: 16px;
+  font-weight: 500;
 }
 .ourproducts__cards--footer {
   background-color: #fff0ed;
   display: flex;
-  flex-direction: column;
+  height: 8em;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
 }
 
 .button2 {
@@ -123,6 +130,52 @@
 .promosection {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.statement {
+  display: flex;
+  margin: 60px;
+  justify-content: space-around;
+}
+.statement__container {
+  width: 35%;
+}
+.statement__title {
+  font-size: 50px;
+  font-weight: 300;
+  padding: 10px;
+  padding-top: 40px;
+}
+.statement__icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.statement__icon--size {
+  width: 50px;
+}
+.statement__text {
+  font-weight: 400;
+  padding: 10px;
+}
+.statement__button {
+  color: #fff;
+  background-color: #5bacc3;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  border-style: hidden;
+  max-width: 10%;
+  min-width: 180px;
+  padding: 10px;
+}
+.tiltedcan--background {
+  background-image: url("/assets/coldbrewbackground.png");
+  background-size: cover;
+  width: 25em;
+  height: 25em;
+  display: flex;
   justify-content: center;
   align-items: center;
 }

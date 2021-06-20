@@ -34,40 +34,78 @@
 
     <h2 class="ourproducts__title">Our Products</h2>
     <section class="ourproducts">
+      <!--first card-->
       <div class="ourproducts__cards">
         <img
           class="ourproducts__cards--img"
           src="./assets/coffeebeans.png"
           alt="coffee beans"
         />
-        <h3 class="ourproducts__cards--name">Coffee Beans</h3>
-        <span class="qty">Pack of 3</span>
-        <p class="ourproducts__cards--price">$18.99</p>
+        <div class="ourproducts__cards--footer">
+          <div>
+            <h3 class="ourproducts__cards--name">Coffee Beans</h3>
+            <span class="qty">Pack of 3</span>
+          </div>
+          <p class="ourproducts__cards--price">$19</p>
+        </div>
       </div>
+      <!--second card-->
       <div class="ourproducts__cards">
         <img
           class="ourproducts__cards--img"
           src="./assets/coldbrew.png"
           alt="cold brew"
         />
-        <h3 class="ourproducts__cards--name">Cold Brew</h3>
-        <h4 class="qty">1 can</h4>
-        <p class="ourproducts__cards--price">$4.99</p>
+        <div class="ourproducts__cards--footer">
+          <div>
+            <h3 class="ourproducts__cards--name">Cold Brew</h3>
+            <h4 class="qty">1 can</h4>
+          </div>
+          <p class="ourproducts__cards--price">$5</p>
+        </div>
       </div>
+
+      <!--third card-->
       <div class="ourproducts__cards">
         <img
           class="ourproducts__cards--img"
           src="./assets/inhousebrew.png"
           alt="In-House Brew"
         />
-        <h3 class="ourproducts__cards--name">In-House Brew</h3>
-        <h4 class="qty">1 cup</h4>
-        <p class="ourproducts__cards--price">2.99</p>
+        <div class="ourproducts__cards--footer">
+          <div>
+            <h3 class="ourproducts__cards--name">In-House Brew</h3>
+            <h4 class="qty">1 cup</h4>
+          </div>
+          <p class="ourproducts__cards--price">$3</p>
+        </div>
       </div>
     </section>
 
     <section class="promosection">
       <button class="button2">VIEW ALL</button>
+    </section>
+
+    <section class="statement">
+      <div class="statement__container">
+        <h1 class="statement__title">We're Different</h1>
+        <p class="statement__text">
+          We grow and roast our own beans. Every bean, every cup, every step of
+          the way, we strive for excellence.
+        </p>
+        <figure class="statement__icon">
+          <img class="statement__icon--size" src="assets/planting.svg" />
+          <img class="statement__icon--size" src="assets/coffee-beans.svg" />
+          <img class="statement__icon--size" src="assets/coffee-cup.svg" />
+        </figure>
+        <button class="statement__button">Learn More</button>
+      </div>
+      <figure class="tiltedcan--background">
+        <img src="assets/tiltedcan.png" />
+      </figure>
+    </section>
+
+    <section class="promo__container">
       <p class="promo">
         Get 20% off your first order with code:
         <span style="font-weight: bold"> FirstNistro</span>

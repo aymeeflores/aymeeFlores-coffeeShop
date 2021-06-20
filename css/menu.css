@@ -63,6 +63,9 @@
   font-weight: 300;
   text-align: center;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .price {
@@ -76,6 +79,7 @@
   background-size: 80%;
   background-position: center;
   height: 28.125rem;
+  display: flex;
 }
 
 .productsection__container {
