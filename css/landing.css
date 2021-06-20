@@ -40,6 +40,17 @@
   padding: 10px;
   margin-top: 20px;
 }
+.button1::before {
+  content: "";
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 180px;
+  height: 45px;
+  position: absolute;
+  bottom: 210px;
+  left: 55px;
+}
 .promo__container {
   display: flex;
   justify-content: center;
@@ -126,6 +137,17 @@
   padding: 10px;
   margin: 20px;
 }
+.button2::before {
+  content: "";
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  top: 1365px;
+  left: 660px;
+}
 
 .promosection {
   display: flex;
@@ -169,6 +191,18 @@
   max-width: 10%;
   min-width: 180px;
   padding: 10px;
+  margin-top: 30px;
+}
+.statement__button::before {
+  content: "";
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  top: 1775px;
+  left: 180px;
 }
 .tiltedcan--background {
   background-image: url("/assets/coldbrewbackground.png");
@@ -178,4 +212,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.tiltedcan--background::before {
+  content: "";
+  border-style: solid;
+  border-color: #5bacc3;
+  border-width: 5px;
+  width: 25em;
+  height: 25em;
+  position: absolute;
+  top: 1480px;
+  left: 910px;
 }

@@ -11,6 +11,7 @@
   background-color: #fff0ed;
   padding: 15px;
   display: flex;
+  justify-content: space-between;
 }
 .mainmenu__title {
   font-size: 2.375rem;
@@ -26,7 +27,7 @@
   font-weight: 500;
 }
 .mainmenu_icon {
-  display: inline-block;
+  display: flex;
 }
 a:link {
   color: #393939;
