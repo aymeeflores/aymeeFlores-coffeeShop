@@ -1,0 +1,233 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+.mainsection {
+  background-color: #fff0ed;
+  background-image: url("../assets/coffeebeans-hero.png");
+  background-repeat: no-repeat;
+  background-position: 75% center;
+  height: 40em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+  position: relative;
+}
+
+.mainsection__title {
+  font-weight: 300;
+  font-size: 3.75rem;
+  max-width: 50%;
+}
+.mainsection__text {
+  font-size: 1.125rem;
+  font-weight: 400;
+  max-width: 28%;
+  margin-top: 20px;
+}
+
+.button1 {
+  color: #fff;
+  background-color: #5bacc3;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  border-style: hidden;
+  max-width: 10%;
+  min-width: 180px;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+}
+.button1::before {
+  content: "";
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 180px;
+  height: 45px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+.promo__container {
+  display: flex;
+  justify-content: center;
+}
+.promo {
+  background-color: #393939;
+  font-size: 2.0625rem;
+  font-weight: 25rem;
+  color: #fff;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 2.5rem;
+  padding: 20px;
+  width: fit-content;
+}
+.ourproducts {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #f7f7f7;
+}
+.ourproducts__title {
+  font-size: 3.75rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+.ourproducts__cards {
+  background-color: white;
+  min-width: 330px;
+  max-width: 350px;
+  min-height: 440px;
+  max-height: 460px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+/* fixed img distortion caused by flex*/
+.ourproducts__cards--img {
+  width: 50%;
+  margin: auto;
+  min-height: 240px;
+  max-height: 550px;
+}
+.ourproducts__cards--name {
+  font-size: 2.0625rem;
+  font-weight: 400;
+}
+.ourproducts__cards--price {
+  font-size: 2.0625rem;
+  color: #5bacc3;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+.qty {
+  color: #909090;
+  font-size: 16px;
+  font-weight: 500;
+}
+.ourproducts__cards--footer {
+  background-color: #fff0ed;
+  display: flex;
+  height: 8em;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.button2 {
+  color: #fff;
+  background-color: #5bacc3;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  border-style: hidden;
+  max-width: 10%;
+  min-width: 180px;
+  padding: 10px;
+  margin: 20px;
+  position: relative;
+}
+.button2::before {
+  content: "";
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+.promosection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.statement {
+  display: flex;
+  margin: 60px;
+  justify-content: space-around;
+}
+.statement__container {
+  width: 35%;
+}
+.statement__title {
+  font-size: 50px;
+  font-weight: 300;
+  padding: 10px;
+  padding-top: 40px;
+}
+.statement__icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.statement__icon--size {
+  width: 50px;
+}
+.statement__text {
+  font-weight: 400;
+  padding: 10px;
+}
+.statement__button {
+  color: #fff;
+  background-color: #5bacc3;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  border-style: hidden;
+  max-width: 10%;
+  min-width: 180px;
+  padding: 10px;
+  margin-top: 30px;
+  position: relative;
+}
+.statement__button::before {
+  content: "";
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+.tiltedcan--background {
+  background-image: url("/assets/coldbrewbackground.png");
+  background-size: cover;
+  width: 25em;
+  height: 25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.tiltedcan--background::before {
+  content: "";
+  border-style: solid;
+  border-color: #5bacc3;
+  border-width: 5px;
+  width: 25em;
+  height: 25em;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
