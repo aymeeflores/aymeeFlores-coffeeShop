@@ -58,4 +58,28 @@ a:visited {
   justify-content: center;
   justify-content: space-around;
   padding: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.footer::before {
+  content: "";
+  background-image: url("../assets/coffee-beans-logo-and-footer.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -10px;
+  left: -30px;
+}
+.footer::after {
+  content: "";
+  background-image: url("../assets/coffee-beans-logo-and-footer.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  bottom: -10px;
+  right: -30px;
 }

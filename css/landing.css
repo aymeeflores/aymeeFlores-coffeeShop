@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 60px;
+  position: relative;
 }
 
 .mainsection__title {
@@ -39,6 +40,7 @@
   min-width: 180px;
   padding: 10px;
   margin-top: 20px;
+  position: relative;
 }
 .button1::before {
   content: "";
@@ -48,8 +50,8 @@
   width: 180px;
   height: 45px;
   position: absolute;
-  bottom: 210px;
-  left: 55px;
+  top: -5px;
+  left: -5px;
 }
 .promo__container {
   display: flex;
@@ -136,6 +138,7 @@
   min-width: 180px;
   padding: 10px;
   margin: 20px;
+  position: relative;
 }
 .button2::before {
   content: "";
@@ -145,8 +148,8 @@
   width: 180px;
   height: 50px;
   position: absolute;
-  top: 1365px;
-  left: 660px;
+  top: -5px;
+  left: -5px;
 }
 
 .promosection {
@@ -154,6 +157,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .statement {
   display: flex;
@@ -192,6 +196,7 @@
   min-width: 180px;
   padding: 10px;
   margin-top: 30px;
+  position: relative;
 }
 .statement__button::before {
   content: "";
@@ -201,8 +206,8 @@
   width: 180px;
   height: 50px;
   position: absolute;
-  top: 1775px;
-  left: 180px;
+  top: -5px;
+  left: -5px;
 }
 .tiltedcan--background {
   background-image: url("/assets/coldbrewbackground.png");
@@ -212,6 +217,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .tiltedcan--background::before {
   content: "";
@@ -221,6 +227,6 @@
   width: 25em;
   height: 25em;
   position: absolute;
-  top: 1480px;
-  left: 910px;
+  top: -10px;
+  left: -10px;
 }
